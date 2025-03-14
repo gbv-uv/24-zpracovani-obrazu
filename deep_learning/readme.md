@@ -1,9 +1,9 @@
 # Hluboké učení
 
-Pro použí je potřeba si nainstalovat následující balíčky.
+Pro použí je potřeba si nainstalovat následující balíčky a používat python verze 3.9.
 
 ``` bash
-pip install keras tensorflow pandas numpy pydot
+pip3.9 install keras tensorflow pandas numpy pydot
 ```
 
 Dále je potřeba mít povolený slouhý formát cesty (soubor longPaht.reg) a nainstalovaný program GraphViz (přiložený exe soubor).
