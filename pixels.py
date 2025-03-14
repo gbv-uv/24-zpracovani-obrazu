@@ -8,7 +8,7 @@ white = 255
 height = 600
 width = 800
 
-image = np.zeros(shape=(height, width), dtype=np.uint8).copy()
+image = np.zeros(shape=(height, width), dtype=np.uint8)
 
 for y in range(height):
     for x in range(width):
@@ -17,6 +17,6 @@ for y in range(height):
 
 
 
-plt.figure(figsize= (15, 5))
+plt.figure(figsize= (15, 12))
 plt.imshow(image, cmap=plt.cm.gray, vmin=0, vmax=255)
 plt.show()
